@@ -1,5 +1,9 @@
 # symbi-gemini-cli
 
+<p align="center">
+  <img src="symbi-gemini-cli.png" alt="symbi-gemini-cli" width="300">
+</p>
+
 A Gemini CLI extension that brings [Symbiont](https://symbiont.dev)'s zero-trust AI agent governance to your development workflow. Enforce Cedar authorization policies, verify MCP tool integrity with SchemaPin, maintain cryptographic audit trails, and manage governed agents -- all from within Gemini CLI.
 
 ## Prerequisites
