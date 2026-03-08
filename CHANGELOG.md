@@ -18,7 +18,7 @@
   - `/symbi:init` -- quick project scaffold
   - `/symbi:verify` -- verify MCP tools
 - Hooks:
-  - `cedar-gate.sh` -- PreToolUse Cedar policy check (dual-mode aware)
+  - `policy-log.sh` -- PreToolUse advisory policy logging (dual-mode aware)
   - `audit-log.sh` -- PostToolUse audit logging (dual-mode aware)
   - `install-check.sh` -- symbi binary verification (dual-mode aware)
   - `mcp-wrapper.sh` -- MCP transport switching (stdio/HTTP)

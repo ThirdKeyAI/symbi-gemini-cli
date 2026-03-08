@@ -18,7 +18,7 @@ symbi-gemini-cli/
 ├── hooks/
 │   └── hooks.json                   # Hook config for policy enforcement
 ├── scripts/
-│   ├── cedar-gate.sh                # PreToolUse hook: Cedar policy check
+│   ├── policy-log.sh                # PreToolUse hook: advisory policy logging
 │   ├── audit-log.sh                 # PostToolUse hook: audit trail
 │   ├── install-check.sh             # Verify symbi is installed
 │   └── mcp-wrapper.sh              # MCP transport switching (stdio/HTTP)
@@ -197,7 +197,7 @@ All scripts support dual-mode operation:
 - Mode B (SYMBIONT_MANAGED): Defers to outer ORGA Gate, skips redundant logging
 
 Scripts:
-- `scripts/cedar-gate.sh` -- PreToolUse Cedar policy check
+- `scripts/policy-log.sh` -- PreToolUse advisory policy logging
 - `scripts/audit-log.sh` -- PostToolUse audit logging to `.symbiont/audit/`
 - `scripts/install-check.sh` -- Verify symbi binary availability
 - `scripts/mcp-wrapper.sh` -- MCP transport switching (stdio vs HTTP)
