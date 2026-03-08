@@ -1,7 +1,6 @@
 ---
 name: symbi-dsl
 description: Parse, validate, and create Symbiont DSL agent definitions. Use when writing new agents, debugging DSL syntax errors, or understanding existing agent definitions.
-allowed-tools: ["symbi__parse_dsl", "symbi__get_agent_dsl", "symbi__list_agents"]
 ---
 
 # Symbiont DSL Development
